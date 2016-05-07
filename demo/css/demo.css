@@ -57,6 +57,7 @@ a.btn {
 }
 
 a.btn-demo {
+    display: inline-block;
     background: #ff5722;
     border: 1px solid #ff5722;
     margin-right: 15px;

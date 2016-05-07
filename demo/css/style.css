@@ -17,6 +17,7 @@ div.em-Modal {
     color: #333;
     opacity: 0;
     visibility: hidden;
+    z-index: 9999;
 }
 
 div.em-Modal div.em-Modal-Content {

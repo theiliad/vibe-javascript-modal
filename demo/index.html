@@ -81,5 +81,16 @@
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
 <script src="js/vibe.js"></script>
+    
+<script>
+var btnDemo = document.querySelector(".btn-demo");
+
+TweenMax.to(btnDemo, .5, {
+    scale: 1.1,
+    repeat: 5,
+    yoyo: !0,
+    ease: Power1.easeIn
+});
+</script>
 </body>
 </html>
