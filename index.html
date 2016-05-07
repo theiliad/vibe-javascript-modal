@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vibe JS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel='stylesheet' href='demo/css/style.css' type='text/css' media='all' />
+
+<!-- These are only needed for the demo -->
+<link rel='stylesheet' href='demo/css/demo.css' type='text/css' media='all' />
+<link rel='stylesheet' href='demo/css/ionicons.min.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+<!-- demo ENDS -->
+
+</head>
+<body>
+    <div class="container">
+        
+        <!-- NAVBAR STARTS -->
+        <ul id="navbar">
+            <li class="nav-item nav-logo">
+                <a href="#">
+                    <i class="icon ion-flash"></i>Vibe JS
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="http://eMoosavi.com" target="_blank">Eliad Moosavi</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="http://github.com/theiliad" target="_blank">Github</a>
+            </li>
+        </ul>
+        <!-- NAVBAR ENDS -->
+        
+    </div>
+    
+    <div class="content">
+        <img src="demo/antenna.svg" class="swift-logo" width="250">
+        
+        <br />
+        
+        <p><b>Vibe</b> is a lightweight and ultra-fast javascript modal, equipped with GPU accelerated animations (thanks to <a href="http://greensock.com/gsap" target="_blank">GSAP</a>)</p>
+                
+        <div class="em-Modal" id="loginModal">
+            <div class="em-Modal-Content">
+                <div class="em-Modal-Close">
+                    <a href="#">
+                        <i class="icon ion-ios-close-empty"></i>
+                    </a>
+                </div>
+
+                <h2>Login to Vibe</h2>
+                
+                <p>This form only for demo purposes, you can't really log into anything!</p>
+                
+                <form>
+                    <input type="text" placeholder="Enter Your Username" />
+                    <input type="password" placeholder="Enter Your Password" />
+                    
+                    <div class="formButtons">
+                        <button class="btn btn-submit" type="submit">Sign In</button>
+                        <button class="btn" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <a href="#" class="btn btn-demo em-Modal-Call" rel="loginModal">
+            <i class="icon ion-ios-game-controller-b-outline"></i>Demo
+        </a>
+        
+        <a href="https://github.com/theiliad/vibe-javascript-modal" class="btn">
+            <i class="icon ion-social-github"></i>Get it Now! <small>(alpha 1.0)</small>
+        </a>
+        
+        <div class="credits">Logo made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="demo/js/vibe.js"></script>
+</body>
+</html>
