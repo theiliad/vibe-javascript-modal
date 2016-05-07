@@ -1,8 +1,9 @@
 # Vibe JS
-<img src="https://raw.githubusercontent.com/theiliad/vibe-javascript-modal/master/demo/demo.gif" />
 
 Vibe is a lightweight and ultra-fast javascript modal, equipped with GPU accelerated animations
 <br /><b>(Pure Javascript + CSS3 + GSAP)</b>
+
+<img src="https://raw.githubusercontent.com/theiliad/vibe-javascript-modal/master/demo/demo.gif" />
 
 # License
 
