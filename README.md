@@ -1,4 +1,4 @@
-# Vibe JS
+# Vibe JS <img src="https://cdn.rawgit.com/theiliad/pulse-javascript-speeddial/master/img/demo.svg" /> <img src="https://cdn.rawgit.com/theiliad/pulse-javascript-speeddial/master/img/version.svg" />
 
 Vibe is a lightweight and ultra-fast javascript modal, equipped with GPU accelerated animations
 <br /><b>(Pure Javascript + CSS3 + GSAP)</b>
