@@ -6,7 +6,7 @@ var modalCallsArray = Array.prototype.slice.call(modalCalls,0);
 modalCallsArray.forEach(function(el) {    
     if (document.getElementById(el.rel)) {
         el.onclick=function(){
-                TweenMax.to(document.getElementById(el.rel), 0.1, {
+                TweenMax.to(document.getElementById(el.rel), 0.15, {
                     opacity: 1,
                     autoAlpha: 1,
                     x: 0,
@@ -14,15 +14,16 @@ modalCallsArray.forEach(function(el) {
                     yoyo: true,
                     ease: Power4.easeIn
                 })
-                TweenMax.to(document.getElementById(el.rel).querySelector('.em-Modal-Content'), 0.1, {
+                TweenMax.to(document.getElementById(el.rel).querySelector('.em-Modal-Content'), 0.2, {
                     opacity: 1,
                     autoAlpha: 1,
                     y: 0,
                     x: 0,
+                    rotationX: 0,
                     scale: 1,
                     repeat: 0,
-                    delay: 0.1,
-                    ease: Bounce.easeIn
+                    delay: 0.15,
+                    ease: Power1.easeIn
                 });
                 
                 setTimeout(function(){
@@ -31,23 +32,24 @@ modalCallsArray.forEach(function(el) {
                 }, 500);
                 
                 document.getElementById(el.rel).querySelector('.em-Modal-Content .em-Modal-Close').onclick=function(){
-                    TweenMax.to(document.getElementById(el.rel), 0.1, {
+                    TweenMax.to(document.getElementById(el.rel), 0.15, {
                         opacity: 0,
                         autoAlpha: 0,
                         x: 0,
                         repeat: 0,
                         yoyo: true,
-                        delay: 0.1,
+                        delay: 0.2,
                         ease: Power4.easeIn
                     })
-                    TweenMax.to(document.getElementById(el.rel).querySelector('.em-Modal-Content'), 0.1, {
+                    TweenMax.to(document.getElementById(el.rel).querySelector('.em-Modal-Content'), 0.2, {
                         opacity: 0,
                         autoAlpha: 0,
                         y: 300,
                         x: 0,
+                        rotationX: 75,
                         scale: 0.5,
                         repeat: 0,
-                        ease: Bounce.easeOut
+                        ease: Power1.easeIn
                     });
                 };
         };
